@@ -2,12 +2,14 @@ body {
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    margin: 0;
 }
 
 .header {
+    background: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding: 20px 200px;
 }
 
 .header ul {
@@ -16,4 +18,12 @@ body {
     padding: 0;
     margin: 0;
     gap: 16px;
+}
+
+.first {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
 }
