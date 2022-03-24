@@ -31,7 +31,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 30px 200px;
 }
 
 .header ul {
@@ -47,11 +47,11 @@ body {
     color: #F9FAF8;
 }
 
-/* First section*/
+/* Hero section*/
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 100px 200px;
 }
