@@ -37,6 +37,11 @@ body {
     max-width: fit-content;
 }
 
+.info,
+.action {
+    background: #F9FAF8;
+}
+
 /* Header section */
 
 .header {
@@ -85,3 +90,39 @@ body {
 }
 
 /* Info section */
+
+.info .subtitle{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 100px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.infoimg {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.subtext {
+    color: #1F2937;
+}
