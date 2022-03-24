@@ -26,12 +26,23 @@ body {
     color: #E5E7EB;
 }
 
+.signup {
+    background: #3882F6;
+    padding: 10px 35px;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #3882F6;
+    max-width: fit-content;
+}
+
 /* Header section */
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 30px 200px;
+    padding: 30px 12%;
 }
 
 .header ul {
@@ -53,5 +64,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 200px;
+    padding: 100px 12%;
 }
+
+.herotitle {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.herotext {
+    margin-bottom: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+/* Info section */
