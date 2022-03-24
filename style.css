@@ -22,6 +22,7 @@ body {
 
 .herotext,
 .boxtext,
+.footer,
 .header a {
     font-size: 18px;
     color: #E5E7EB;
@@ -170,4 +171,12 @@ body {
     color: #F9FAF8;
     font-size: 26px;
     font-weight: 700;
+}
+
+/* Footer */
+.footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
