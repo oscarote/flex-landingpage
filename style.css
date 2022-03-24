@@ -21,6 +21,7 @@ body {
 }
 
 .herotext,
+.boxtext,
 .header a {
     font-size: 18px;
     color: #E5E7EB;
@@ -146,4 +147,27 @@ body {
     font-size: 22px;
     color: #1F2937;
     text-align: right;
+}
+
+/* Call to action section */
+.action {
+    padding: 100px 12%;
+}
+
+.box {
+    background: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+}
+
+.box .signup {
+    border: 3px solid white;
+}
+
+.boxtitle {
+    color: #F9FAF8;
+    font-size: 26px;
+    font-weight: 700;
 }
